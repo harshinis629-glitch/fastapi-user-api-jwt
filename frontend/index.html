@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JWT Authentication</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Registration -->
+        <h1>Register</h1>
+
+        <form id="registerForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter name"
+                required
+            >
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter email"
+                required
+            >
+
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter age"
+                required
+            >
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter password"
+                required
+            >
+
+            <button type="submit">Register</button>
+
+        </form>
+
+        <p id="registerMessage"></p>
+
+
+        <!-- Login -->
+        <hr>
+
+        <h1>Login</h1>
+
+        <form id="loginForm">
+
+            <input
+                type="email"
+                id="loginEmail"
+                placeholder="Enter email"
+                required
+            >
+
+            <input
+                type="password"
+                id="loginPassword"
+                placeholder="Enter password"
+                required
+            >
+
+            <button type="submit">Login</button>
+
+        </form>
+
+        <p id="loginMessage"></p>
+
+<hr>
+
+<h2>My Profile</h2>
+
+<button id="profileButton" type="button">
+    View Profile
+</button>
+
+<p id="profileMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
